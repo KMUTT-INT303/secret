@@ -10,66 +10,66 @@
     </head>
     <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top polar-b">
-        <div class="container">
-            <a class="navbar-brand" href="#"> VIP88 Plus</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#"><i class="fas fa-home"></i> หน้าแรก</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#"><i class="fas fa-money-bill-alt"></i> เลขเด็ด</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#"><i class="fas fa-money-check"></i> ตรวจสลากกินแบ่งรัฐบาล</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#"><i class="fas fa-search-dollar"></i> ตรวจหวย</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#"><i class="fas fa-search"></i> ดูดวง</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <main role="main" class="container">
-
-        <div class="row">
-            <div class="col-8 mb-4">
-                <div class="jumbotron">
-                    <h1 class="display-4">VIP88 Plus</h1>
-                    <p class="lead">ยินดีต้อนรับท่านสมาชิกทุกท่านเข้าสู่เว็บ vip88plus.com เลขเด็ด เด่น ดัง ที่จะนำโชคก้อนใหญ่มาให้ทุกคน !</p>
-                    <hr class="my-4">
-                    <p><span class="badge badge-success">*แนะนำ</span> ระบบคอมพิวเตอร์ AI หรือ การคำนวณหวยในแต่ล่ะงวดที่จะทำให้ท่านมีโอกาสมากยิ่งขึ้นกว่าเดิม!</p>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top polar-b">
+            <div class="container">
+                <a class="navbar-brand" href="#"> VIP88 Plus</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"><i class="fas fa-home"></i> หน้าแรก</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"><i class="fas fa-money-bill-alt"></i> เลขเด็ด</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"><i class="fas fa-money-check"></i> ตรวจสลากกินแบ่งรัฐบาล</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"><i class="fas fa-search-dollar"></i> ตรวจหวย</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"><i class="fas fa-search"></i> ดูดวง</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </nav>
 
-            <div class="col-4 mb-4">
-                <div class="card h-100">
-                    <div class="card-body">
+        <main role="main" class="container">
 
+            <div class="row">
+                <div class="col-sm-8 mb-4">
+                    <div class="card h-100">
+                        <div class="jumbotron h-100">
+                            <h1 class="display-4">VIP88 Plus</h1>
+                            <p class="lead">ยินดีต้อนรับท่านสมาชิกทุกท่านเข้าสู่เว็บ vip88plus.com เลขเด็ด เด่น ดัง ที่จะนำโชคก้อนใหญ่มาให้ทุกคน !</p>
+                            <hr class="my-4">
+                            <p><span class="badge badge-success">*แนะนำ</span> ระบบคอมพิวเตอร์ AI หรือ การคำนวณหวยในแต่ล่ะงวดที่จะทำให้ท่านมีโอกาสมากยิ่งขึ้นกว่าเดิม!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 mb-4">
+                    <div class="card h-100">
+                        <img class="img-fluid h-100" src="{{asset('images/logo.png')}}" alt="vip88plus"/>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="row">
-                <div class="col-8 mb-4">
+            <div class="row">
+                <div class="col-sm-8 mb-4">
                     <div class="card h-100">
-                        <div class="card-body">
+                        <div class="card-body pb-1">
                             <h5 class="card-title">ดูเลขเด็ดนำโชค</h5>
                             @include('game.lottonumber')
                         </div>
                     </div>
                 </div>
 
-                <div class="col-4 mb-4">
+                <div class="col-sm-4 mb-4">
                     <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title">ผลสลากกินแบ่งรัฐบาลล่าสุด</h5>
@@ -77,53 +77,62 @@
                         </div>
                     </div>
                 </div>
-        </div>
+            </div>
 
-        <div class="row">
-            <div class="col-12 mb-4">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <div class="row">
+                <div class="col-sm-8 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">ดูดวงประจำวัน</h5>
+                            <p class="card-text">Service is not ready yet.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Facebook Page</h5>
+                            <p class="card-text">Service is not ready yet.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="row">
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="row">
+                <div class="col-sm mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Advertisements</h5>
+                            <p class="card-text">Contact 097-327-9939.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Advertisements</h5>
+                            <p class="card-text">Contact 097-327-9939.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">Advertisements</h5>
+                            <p class="card-text">Contact 097-327-9939.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a short card.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-4">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-    </main>
+        </main>
 
-    <footer class="footer">
-        <div class="container">
-            <span class="text-footer">สงวนลิขสิทธิ์ © 2562 บริษัท โพล่าแบร์ (ประเทศไทย) จำกัด • ติดต่อเรา/สนใจลงโฆษณา</span>
-        </div>
-    </footer>
+        <footer class="footer">
+            <div class="container">
+                <span class="text-footer">สงวนลิขสิทธิ์ © 2562 บริษัท โพล่าแบร์ (ประเทศไทย) จำกัด • ติดต่อเรา/สนใจลงโฆษณา</span>
+            </div>
+        </footer>
 
     </body>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
