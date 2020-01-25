@@ -84,7 +84,7 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">ดูดวงประจำวัน</h5>
-                            <p class="card-text">Service is not ready yet.</p>
+                            @include('game.lucky')
                         </div>
                     </div>
                 </div>
