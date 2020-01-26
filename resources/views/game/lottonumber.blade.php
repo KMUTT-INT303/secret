@@ -55,9 +55,9 @@
                 </div>
 
                 <div class="row text-center">
-                    <div class="col-4"><span id="3d-n-n4"></span></div>
-                    <div class="col-4"><span id="3d-n-n5"></span></div>
-                    <div class="col-4"><span id="3d-n-n6"></span></div>
+                    <div class="col-4"><span id="3d-n-n4">???</span></div>
+                    <div class="col-4"><span id="3d-n-n5">???</span></div>
+                    <div class="col-4"><span id="3d-n-n6">???</span></div>
                 </div>
 
             </div>
