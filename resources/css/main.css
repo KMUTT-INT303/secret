@@ -53,7 +53,7 @@ body {
 
 }
 
-.teusday{
+.tuesday{
     height: 75px;
     width: 75px;
     background-color:#ff80d5;
@@ -126,12 +126,12 @@ body {
     font-size:15px;
     content:attr(data-hover);
 }
-.teusday:hover{
+.tuesday:hover{
     border-radius:300px;
     width:150px;
     font-size:0;
 }
-.teusday:hover::after{
+.tuesday:hover::after{
     font-size:15px;
     content:attr(data-hover);
 }
