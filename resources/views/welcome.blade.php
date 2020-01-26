@@ -7,6 +7,7 @@
         <title>หน้าแรก - VIP88 Plus</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="{{asset('css/all.css')}}">
+        <link href="https://fonts.googleapis.com/css?family=Sriracha&display=swap" rel="stylesheet">
     </head>
     <body>
 
@@ -81,7 +82,7 @@
 
                         <div class="col-sm-4 mb-4">
                             <div class="card h-100">
-                                <div class="card-body">
+                                <div class="card-body" >
                                     <h5 class="card-title">ผลสลากกินแบ่งรัฐบาลล่าสุด</h5>
                                     @include('widgets.rewards')
                                 </div>
@@ -91,9 +92,10 @@
 
                     <div class="row">
                         <div class="col-sm-8 mb-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title">ดูดวงประจำวัน</h5>
+                            <div class="card border-0">
+                                <div class="card-body" style="background-image: url({{asset('images/ss.png')}})">
+                                    <h2 class="card-title horohead" >ดูดวงประจำวัน</h2>
+                                  
                                     @include('game.lucky')
                                 </div>
                             </div>
