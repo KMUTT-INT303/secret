@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/daily-lucky', 'DailyLuckyController@index')->name('daily.lucky');
+
